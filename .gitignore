@@ -1,2 +1,13 @@
 venv/ 
 __pycache__/ 
+# Ignore Database files
+*.db
+*.sqlite3
+
+# Ignore AI Models (They are downloaded automatically)
+*.pt
+*.onnx
+
+# Ignore PyCache (Junk files)
+__pycache__/
+*.pyc
